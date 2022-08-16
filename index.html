@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My portifolio</title>
+</head>
+<body class="image">
+    <div class="image-overlay">
+    <!--navbar-->
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light  bg-light">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <i class="fa fa-user" style="color: black; font-size: 25px;"></i>
+                       MELISSA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portifolio" class="nav-link">Portifolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#hobbies" class="nav-link">More of Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       </nav>
+
+    <!--home page-->
+ <section id="home" class="p-5 m-5">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md my-5">
+                <p id="type-writer" class="lead" style="font-size: 2.5rem ;" data-text="Hello World! am Melissa Mugengano A Front End and Back End Developer."></p>
+                <a href="#" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</a>
+            </div>
+            <div class="col-md mb-4">
+                <img class="rounded-circle" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGxhcHRvcCUyMHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+ <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="exampleModalLabel">Contact Info</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-bordeless table-hover">
+                <tbody>
+                  <tr>
+                    <th scope="col">Email:</th>
+                    <th scope="col">melissatessy06@gmail.com</th>
+                  </tr>
+                  <tr>
+                    <td>Instagram:</td>
+                    <td>tessy_mung</td>
+                  </tr>
+                  <tr>
+                    <td>Github</td>
+                    <td>Melissa652</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+ <!--about me-->
+ <section id="about" class="p-5 bg-light">
+    <div class="container">
+        <h1 class="text-center">About Me</h1>
+        <hr>
+        <div class="row g-5">
+            <div class="col-md">
+                <p class="lead text-muted">
+                    Am a student in high schoool in africa Rwanda and am in grade 11 and currently has Good skills in coding and dreams of studying and discovering more about programming.From what i have learned so far designing is not my stuff yet but i will learn it and become a software developer.
+                </p>
+            </div>
+            <div class="col-md mx-auto d-block">
+                <img src="images/2.jpg" alt="" class="rounded w-75">
+            </div>
+            <div class="col-md">
+                <p class="lead text-muted ">
+                    From the skills i have got from my first camp of Futur skills Bootcamp including Girls who code , I plan to increase my skills in design and get knowledge on topics such as App development and game development and later become a Software Engineer.
+                </p>
+                <a href="#hobbies" class="btn btn-outline-warning">More About Me</a>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!--Portifolio-->
+ <section class="p-5" id="portifolio">
+    <div class="container">
+        <h1 class="text-right">My Portifolio</h1>
+        <hr>
+        <div class="row g-5 text-center">
+            <div class="col-md-6 p-5">
+                <img src="images/3.png" class="img-fluid w-" alt="">
+            </div>
+            <div class="col-md-6 p-5">
+                <p class="lead p-2">This is a simple website that is meant to spread awareness about breast cancer all around the worls and help different initiatives gain help an donations.</p>
+                <a href="https://melissa652.github.io/ActivistProject/" class="btn btn-outline-warning">Visit Site</a>
+            </div>
+            <div class="col-md-6 p-5">
+                <p class="lead">
+                    As a beginner in web development i have alot of unfinished websites that i'm still working on and with that After Breast Cancer is one of My recent projects but i have many more coming.For the projects coming and those that are almost completed check the list on the right.
+                </p>
+            </div>
+            <div class="col-md-6 p-5">
+                 <div class="row g-5">
+                    <div class="col ">
+                        <button class="btn btn-warning rounded-circle">1</button>
+                        <h3 class="lead">Personality Test</h3>
+                    </div>
+                    <div class="col px-2">
+                        <button class="btn btn-warning rounded-circle ">2</button>
+                        <h3 class="lead">Smart Save</h3>
+                    </div>
+                    <div class="col px-5">
+                        <button class="btn btn-warning rounded-circle">3</button>
+                        <h3 class="lead">Fitness</h3>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-warning rounded-circle">4</button>
+                        <h3 class="lead">Enjoy It</h3>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-warning rounded-circle">5</button>
+                        <h3 class="lead">Virtual Piano</h3>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+
+  <!--Hobbies-->
+  <section class="p-5 bg-light" id="hobbies">
+    <div class="container">
+        <div class="head">
+            <h1>Hobbies</h1>
+            <p class="lead text-muted italic">Be yourself; everyone else is already taken</p>
+            <hr>
+        </div>
+        <div class="row py-5 g-4 text-center" id="row">
+            <div class="col-md h-50  d-flex align-items-stretch">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://media.istockphoto.com/photos/playful-happy-smiling-pet-dog-running-in-the-grass-picture-id1320018473?b=1&k=20&m=1320018473&s=170667a&w=0&h=Q-U9yI4JjCJYSAzXZwpnM4HuaXPzo4K-vBsgO7lanyo=" class="card-img-top" id="img" alt="...">
+                    <div class="card-body d-flex flex-column">
+                      <p class="card-text">I am a dog person and love dogs because of their everlasting courage and being man's bestfriend.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md h-50  d-flex align-items-stretch">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://media.istockphoto.com/photos/coding-language-development-icon-on-yellow-background-software-picture-id1372764637?b=1&k=20&m=1372764637&s=170667a&w=0&h=AAXme4I49rP563h1ihhW_GUtHf1_bJCmKB4mm0gYnjs=" class="card-img-top" id="img" alt="...">
+                    <div class="card-body d-flex flex-column">
+                      <p class="card-text">Coding for me is a form of relaxation that helps me express my imagination in differnt and cool ways.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md h-50 d-flex align-items-stretch">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://media.istockphoto.com/photos/ping-pong-equipment-on-blue-table-picture-id1222183464?b=1&k=20&m=1222183464&s=170667a&w=0&h=nS0ZYY2LklGOryL3ZSiEEU4Ud6ih8U3cHtRZivST1FE=" class="card-img-top" id="img" alt="...">
+                    <div class="card-body d-flex flex-column">
+                      <p class="card-text">Table tennis is a world wide game that helps me relax and it does not require me to run.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="p-3 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="lead">copyright &copy; 2022 Melissa Mugengano</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-3">
+            <i class="bi bi-arrow-up-circle h1 text-warning"></i>
+        </a>
+    </div>
+   </footer> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</div> 
+</body>
+</html>
